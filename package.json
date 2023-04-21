@@ -1,0 +1,22 @@
+{
+  "name": "web-code-editor",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "concurrently \"tsc --removeComments --outDir out -w server\\main.ts\" \"nodemon out\\server\\main.js\""
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.13.0",
+    "@types/node": "^18.15.12",
+    "@types/ws": "^8.5.4",
+    "file-selector": "^0.6.0",
+    "ws": "^8.13.0"
+  }
+}

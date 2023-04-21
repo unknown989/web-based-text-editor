@@ -1,0 +1,31 @@
+button {
+  width: 10rem;
+  background-color: #8ecae6;
+  border: 2px solid #219ebc;
+  border-top: 0;
+  border-left: 0;
+  color: white;
+  font-family: Roboto;
+  height: 2rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: medium;
+}
+button:active {
+  border: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+#app {
+  padding: 0;
+  margin: 0;
+}
+textarea {
+  width: 99vw !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  height: 90vh !important;
+  outline: none;
+}
