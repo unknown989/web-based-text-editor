@@ -2,6 +2,10 @@
 ### This is a simple demo for a web-based text editor that edits files on the file system in realtime
 
 # How To Run
+- Initialize
+```sh
+yarn
+```
 - To run the server
 ```sh
 yarn serve
